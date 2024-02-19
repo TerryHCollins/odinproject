@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-color: white;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  margin-left: 15%;
+}
+
+p {
+  font-family: "Jomhuria", Times, serif;
+  font-size: xx-large;
+  line-height: normal;
+}
+
+.it {
+  font-style: oblique;
+}
+
+.left img {
+  align-items: left;
+  width: 50%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+}
